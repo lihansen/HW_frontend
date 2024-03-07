@@ -1,0 +1,8 @@
+.article_list{
+    width: 70%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

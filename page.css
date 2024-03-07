@@ -1,0 +1,114 @@
+.article__page {
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.article__content {
+    width: 70%;
+    margin: 10px;
+    padding: 20px;
+    /* background-color: lightpink; */
+}
+
+
+.article__header {
+    /* background-color: rgb(239, 238, 238); */
+}
+
+.article__header .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.article__header .date {
+    font-size: medium;
+    color: lightgrey;
+}
+
+.article__header .abstract {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.article__header .abstract p {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border: 2px solid lightgrey;
+}
+
+
+.code_block{
+    border: 2px solid lightgrey;
+    font-weight: bold;
+}
+
+
+.decimal_list li{
+    list-style-type: decimal;
+
+}
+
+.article__body h1{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.article__body h2{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btn_new{
+    color: rgb(0, 190, 253);
+    background-color: white;    
+    border: 1px solid rgb(0, 190, 253);
+}
+
+
+
+
+/* ******************************aside *********************** */
+.aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside li {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.about {
+    margin: 10px;
+    background-color: rgb(239, 238, 238);
+    padding: 20px;
+
+}
+
+
+.aside .title {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.archieves {
+    margin: 10px;
+    padding: 20px;
+}
+
+.elsewhere {
+    margin: 10px;
+    padding: 20px;
+}
